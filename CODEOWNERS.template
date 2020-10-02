@@ -1,0 +1,5 @@
+# If configured in the repository settings, only these people will be
+# able to approve pull requests.
+
+* @organization/team
+
