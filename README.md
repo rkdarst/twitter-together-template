@@ -15,13 +15,18 @@ otherwise only a few people will post.)
 How-to via web:
 
 * <kbd>[Create new tweet](../../new/master/?filename=tweets/YYYY/MM/<your-path>.tweet)</kbd>
-* Edit the file path, add year/month/filename
+* Edit the file path, YYYY/MM/filename
 * Add the body of the tweet.  Links get automatically shortened.
 * Follow the Github workflow to open the pull request.
 
 This repository is protected by the `CODEOWNERS` file, which restricts
 who can merge.
 
+## Via command line
+
+The `new.sh` script will prompt you for a filename, make a new branch,
+and start an editor for the tweet.  If all goes well, the file will be
+`git add`ed, but you need to commit/push it yourself.
 
 
 ## How-to
